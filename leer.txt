@@ -1,0 +1,17 @@
+//este el css que utilicé para los estilos, esta basado en bootstrap
+https://demos.creative-tim.com/now-ui-kit/index.html
+
+//documentacion 
+https://demos.creative-tim.com/now-ui-kit/docs/1.0/getting-started/introduction.html
+
+//Aqui hay mas temas gratis y pagados
+https://www.creative-tim.com
+
+//Este es para los mensajes de alertas
+https://sweetalert.js.org/
+
+//Documentacion de bootstrap
+https://getbootstrap.com/
+
+//Iconos de los botones
+https://material.io/resources/icons/?style=baseline
