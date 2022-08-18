@@ -1,0 +1,114 @@
+
+.leyen {
+	font-weight:bold; color:yellow; background:#3e6ca4;
+}
+.llena {
+	border:3px groove black; background:#3e6ca4; display: inline;
+}
+.deta{
+	background-color: #CAF0FC;border-collapse: collapse;
+}
+/* Para modal INICIO */
+.modal-contenido{
+  background-color:aqua;
+  width:300px;
+  padding: 10px 20px;
+  margin: 20% auto;
+  position: relative;
+}
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+#miModal:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#verCreds:target{
+  opacity:1;
+  pointer-events:auto;
+}
+.nolink {
+	color: #000; /* El mismo color del texto circundante */
+	text-decoration: none; /* Para eliminar el subrayado */
+	cursor: default;  /* Para quitar la mano como cursor */
+	background: #EAEAEA;
+	border:2px groove #CFCFCF;
+	width: 5px;
+}
+.cierre {
+	color: white; /* El mismo color del texto circundante */
+	text-decoration: none; /* Para eliminar el subrayado */
+	font-family: Arial;
+	cursor: default;  /* Para quitar la mano como cursor */
+	background: red;
+	border:2px groove black;
+}
+/* Para modal  FIN */
+
+/* Para menú */
+.menu {
+  overflow: hidden;
+  background-color: #0033cc; 
+}
+
+.menu a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.submenu {
+  float: left;
+  overflow: hidden;
+}
+
+.submenu .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.menu a:hover, .submenu:hover .subnavbtn {
+  background-color: #009933;
+}
+
+.submenu-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #009933;
+  width: 100%;
+  z-index: 1;
+}
+
+.submenu-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.submenu-content a:hover {
+  background-color: #33cc33;
+  color: black;
+}
+
+.submenu:hover .submenu-content {
+  display: block;
+}
+/* fin Menú */
